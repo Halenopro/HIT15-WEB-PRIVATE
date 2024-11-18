@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("pngtree-modern-simple-elegant-landing-page-website-background-picture-image_1455134.jpg");
+}
+
+.header {
+    background-image: url("chup-anh-san-pham-phang-1596647399.jpg"); 
+
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .header_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .collection{
+    font-size: 75px;
+    color:aliceblue;
+    padding: 25px
+    
+  }
+  .search{
+
+    width: 400px;
+    height: 5px;
+    border-radius: 30px;
+  }
+  .bottom_element{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.left_button{
+    border: none;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.left_button:hover{
+    background-color: darkorange;
+    color: white;
+}
+.all_left_button{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    
+
+}
+.order_now{
+    border: none;
+    background-color: orange;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.order_now:hover{
+   background-color:darkorange ;
+   color: white;
+}
+.Beige_Casual_Bag,
+.Brown_Casual_Bag,
+.orange_Casual_bag{
+    text-align: center;
+    font-size: 45px;
+    color: brown;
+    font-weight: bold;
+    
+}
+img{
+    width: 450px;
+    height: 350px;
+}
